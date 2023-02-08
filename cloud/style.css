@@ -18,5 +18,22 @@ img
     /* transform: scaleY(2);  */
     /* transform: rotateX(90deg);  */
     /* transform: rotateY(45deg);  */
-     transform: rotateZ(45deg);  
+     /* transform: rotateZ(45deg);   */
+}
+.circle
+{
+    width: 100px;
+    padding:50px 0;
+    line-height: 0;
+    margin: 68px auto;
+    background: pink;
+    color:aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 1s, transform 1s ease-out;
+}
+.circle:hover
+{
+    background:salmon;
+    transform: rotate(360deg);
 }
