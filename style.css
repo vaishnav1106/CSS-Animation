@@ -1,0 +1,22 @@
+body
+{
+    background-color: skyblue;
+    text-align: center;
+}
+.wrapper
+{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+img
+{
+    /* transform: translate3d(200px); */
+    /* transform: translateX(500px); */
+    /* transform: translateX(-500px);  */
+    /* transform: scaleX(2);  */
+    /* transform: scaleY(2);  */
+    /* transform: rotateX(90deg);  */
+    /* transform: rotateY(45deg);  */
+     transform: rotateZ(45deg);  
+}
